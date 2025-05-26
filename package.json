@@ -1,0 +1,28 @@
+{
+  "name": "training-javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A repository focused on logic exercises using javascript",
+  "main": "index.js",
+  "scripts": {
+    "run:procedure": "for %f in (procedure\\*.ts) do node --no-warnings --loader ts-node/esm %f",
+    "run:poo": "for %f in (poo\\*.ts) do node --no-warnings --loader ts-node/esm %f",
+    "run:all": "npm run run:procedure && npm run run:poo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhowmael/training-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhowmael/training-javascript/issues"
+  },
+  "homepage": "https://github.com/jhowmael/training-javascript#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

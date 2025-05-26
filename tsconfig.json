@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "es2020",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
