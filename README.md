@@ -35,6 +35,7 @@ Example:
 
 ```bash
 node --no-warnings --loader ts-node/esm poo/20-repository.ts
+node --no-warnings --loader ts-node/esm 01.ts
 ```
 
 Alternatively, run all exercises in a folder using the provided npm scripts:

@@ -1,0 +1,2 @@
+//Dada uma string com várias palavras separadas por espaço, crie uma função que conte quantas vezes cada palavra aparece.
+//retorne um objeto onde a chave é a palavra e o valor é a quantidade de vezes que ela aparece.
