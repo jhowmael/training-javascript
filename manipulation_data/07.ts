@@ -27,6 +27,5 @@ async function updateProducts(products: Product[], updates: { id: number, newPri
 
     return products.filter(product => product.id === updates.id);
 }
-
-console.log(products[0])
+console.log((((((products[0]))))))
 console.log(updateProducts(products, { id: 1, newPrice: 1.5 }))

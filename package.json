@@ -7,7 +7,9 @@
   "scripts": {
     "run:procedure": "for %f in (procedure\\*.ts) do node --no-warnings --loader ts-node/esm %f",
     "run:poo": "for %f in (poo\\*.ts) do node --no-warnings --loader ts-node/esm %f",
-    "run:all": "npm run run:procedure && npm run run:poo"
+    "run:array": "for %f in (arrays_tests\\*.ts) do node --no-warnings --loader ts-node/esm %f",
+    "run:curse": "for %f in (udemy_curse\\*.ts) do node --no-warnings --loader ts-node/esm %f",
+    "run:all": "npm run run:procedure && npm run run:poo && npm run run:array && npm run run:curse"
   },
   "repository": {
     "type": "git",
